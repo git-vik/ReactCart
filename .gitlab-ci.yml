@@ -17,4 +17,4 @@ stage_deploy:
         - ssh-keyscan -H 52.14.169.240 >> ~/.ssh/known_hosts
         - ssh vikas@52.14.169.240 pwd
         - su
-        - scp -P22 -r ./dist/* vikas@52.14.169.240:/var/www/vikasgupta.me/html/reactcart
+        - scp -P22 -r ./dist/* vikas@52.14.169.240:/var/www/vikasgupta.me/html/reactcartgit
