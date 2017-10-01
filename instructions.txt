@@ -1,0 +1,3 @@
+Run npm install.
+Run npm start
+and it will open a url in browser
